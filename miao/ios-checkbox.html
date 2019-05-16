@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <input type="checkbox" id="ck">
+    <label for="ck"> <i > </i></label>
+    </div>
+</body>
+<style>
+     *{
+        margin: 0px;
+        padding:0px;
+     }
+     div{ 
+         border: 1px solid gray;
+         width: 260px;
+         height: 97px;
+         overflow: hidden;
+         position: absolute;
+     }
+     label{
+         width: 260px;
+         height: 97px;
+         border:1px solid gray;
+         /* height: 97px; */
+     }
+    #ck{
+        display: none;
+    }
+
+     i{
+         display: block;
+         width:260px;
+         height: 194px;
+         background: url(TIM图片20190516143855.png) 100% 100% ;
+         position: relative;
+         top:-26px;
+         /* transition: 0.1s; */
+     }
+     input:checked+label i{
+         position: absolute;
+         top:-103px;
+         /* overflow: hidden; */
+         /* transition: 0.1s; */
+     }
+
+
+</style> 
+</html>
