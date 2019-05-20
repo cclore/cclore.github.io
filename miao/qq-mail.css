@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(47,69,91);
+}
+header div{
+    nowrap:nowrap;
+    font-size: 0.9em;
+    display: inline;
+    background-color: rgb(47,69,91);
+    color: rgb(205, 211, 234)
+    line-height:29px;
+}
+header a{
+  color: rgb(205, 211, 234)
+}
+#sy1{
+    vertical-align: -5px;
+    
+}
+#sy2{
+    display: inline-block;
+    vertical-align: 30px;
+    float: right;
+    margin: 0 10px;
+}
+#hd2{
+    display: inline-block;
+    color:rgb(205, 211, 234);
+    /* position: absolute; */
+    vertical-align: 35px;
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+#hd3{
+    display: inline-block;
+    margin-left:-212px;
+    position: absolute;
+    top: 32px;
+    font-size: 0.9em;
+}
+/* #hd4::before{
+    content: url(TIM截图20190518210101.png);
+    margin-bottom: -20px;
+} */
+#hd4 select{
+    width: 28px;
+}
+#hd4 img{
+    height: 22px;
+    position: relative;
+    left: 6px;
+    top: 7px;
+    
+}
+#hd4 {
+    display: inline-block;
+    /* position: absolute:
+    left:1000px; */
+    float: right;
+    margin-top: 35px;
+    margin-right: -200px;
+    /* width:50000px; */
+}
+#hd4 input{
+    width:210px;
+    line-height: 17px;
+}
+
+
+aside{
+    background-color: rgb(232,235,239);
+    box-sizing: border-box;
+    width: 188px;
+    border: 1px solid rgb(53,75, 102,0.3);
+    border-top:0;
+    color:rgb(53,75,102);
+}
+aside ul a{
+    color:rgb(53,75, 102);
+    font-size:0.9em;
+    padding-left:25px;
+    text-decoration: none;
+    
+    /* pading-right:auto; */
+}
+aside ul a:hover{
+    color:rgb(53,75, 102);
+    font-size:0.9em;
+    padding-left:25px;
+    text-decoration:underline;
+}
+aside ul:first-child{
+    line-height: 29px;
+    font-size: 1.0em;
+    border-bottom: 1px solid rgb(53,75,102,0.2);
+    font-weight: bolder;
+    padding-left:27px;
+    list-style: none;
+    padding-bottom:6px;
+}
+aside ul:nth-child(2){
+    padding-top:5px;
+    font-size: 0.8em;
+    line-height: 23px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    list-style: none;
+    border-bottom: 1px solid rgb(53,75, 102,0.2);
+
+}
+aside ul:nth-child(3){
+    border-bottom:1px solid rgb(53,75, 102,0.2);
+    line-height: 30px;
+    padding-left: 8px;
+}
