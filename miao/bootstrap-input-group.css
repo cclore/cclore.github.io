@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.input-grup{
+   /* text-align: center; */
+   /* display: table-row; */
+   height: 40px;
+   width:780px;
+   border: 1px solid gray;
+   margin: 16px auto;
+   vertical-align: middle;
+   border-radius: 5px;
+   border-spacing: 0;
+   font-size: 0;
+}
+.input-grup-button{
+    display:inline-block;
+    background-color: rgb(233,236,239);
+    line-height: 40px;
+    height:40px;
+    vertical-align: middle;
+    font-weight: 200;
+    padding: 0px 20px;
+    margin: 0px;
+    font-size:18px;
+}
+.input-grup-text{
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+body .input-grup:first-child{
+    border-right: 0;
+}
+body .input-grup:first-child .input-grup-text{
+    width:720px;
+}

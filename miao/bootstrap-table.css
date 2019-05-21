@@ -1,0 +1,163 @@
+.table{
+    border: 1px solid rgb(222,226,230);
+    border-left: 0;
+    border-right: 0;
+    width: 700px;
+    margin:20px auto;
+    line-height: 2.7em;
+    border-spacing: 0;
+    text-align: left;
+    font-weight: 100;
+}
+.table>thead>tr>th{
+    border:2px solid rgb(222,226,230);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.table>tbody>tr>td{
+    border:1px solid rgb(222,226,230);
+    border-left: 0;
+    border-right: 0;
+    border-top: 1;
+}
+.table>tbody>tr>th{
+    border:1px solid rgb(222,226,230);
+    border-left: 0;
+    border-right: 0;
+    border-top: 1;
+}
+
+
+
+.table.table-dark{
+    background-color: #343A40;
+    color: white;
+    border-color: #454d55;
+}
+.table-dark.table>thead>tr>th{
+    border:2px solid #454d55;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.table-dark.table>tbody>tr>td{
+    border:1px solid #454d55;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1;
+}
+.table-dark.table>tbody>tr>th{
+    border:1px solid #454d55;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1;
+}
+
+
+.table>.thead-dark>tr>th{
+    border:2px solid rgb(52,58,64);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: rgb(52,58,64);
+    color: white;
+}
+.table>.thead-light>tr>th{
+    border:2px solid rgb(52,58,64);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: #e9ecef;
+    color: black;
+    border-color: #e9ecef;
+}
+
+
+
+.table-striped.table>thead>tr>td{
+    border:2px solid rgb(222,226,230);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.table-striped.table>tbody>tr:nth-child(2n-1)>td{
+    border:1px solid rgb(242,242,242);
+    border-left: 0;
+    border-right: 0;
+    border-top: 1;
+    background-color: rgb(242,242,242);
+}
+.table-striped.table>tbody>tr:nth-child(2n-1)>th{
+    border:1px solid rgb(242,242,242);
+    border-left: 0;
+    border-right: 0;
+    border-top: 1;
+    background-color: rgb(242,242,242);
+}
+
+
+
+.table.table-striped.table-dark>tbody>tr:nth-child(2n-1)>td{
+    color: white;
+    background-color: rgb(62,68,74);
+    border-color: rgb(62,68,74);
+}
+.table.table-striped.table-dark>tbody>tr:nth-child(2n-1)>th{
+    color: white;
+    background-color: rgb(62,68,74);
+    border-color: rgb(62,68,74);
+}
+
+
+.table.table-bordered>tbody>tr>td{
+    border:1px solid rgb(222,226,230)
+}
+.table.table-bordered>tbody>tr>th{
+    border:1px solid rgb(222,226,230)
+}
+.table.table-bordered>thead>tr>th{
+    border:1px solid rgb(222,226,230)
+}
+
+
+.table.table-dark.table.table-bordered>tbody>tr>td{
+    border:1px solid #454d55;
+}
+.table.table-dark.table.table-bordered>tbody>tr>th{
+    border:1px solid #454d55;
+}
+.table.table-dark.table.table-bordered>thead>tr>th{
+    border:1px solid #454d55;
+}
+    
+
+.table.table-borderless{
+    border:1px solid rgb(222,226,230);
+}
+.table.table-borderless>tbody>tr>td{
+    border:none;
+}
+.table.table-borderless>tbody>tr>th{
+    border:none;
+}
+.table.table-borderless>thead>tr>th{
+    border:none;
+}
+
+
+.table.table-hover>tbody>tr:hover{
+    background-color: rgb(236,236,236);
+}
+
+
+.table.table-hover.table-dark>tbody>tr:hover{
+    background-color: rgb(67,73,78);
+}
+
+
+
+.table.table-sm{
+    zoom:0.9;
+}
+
