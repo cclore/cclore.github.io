@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin:0;
+} 
+header{
+    background-color: rgb(47,69,91);
+}
+header div{
+    float: left;
+    nowrap:nowrap;
+    font-size: 0.9em;
+    display: block;
+    background-color: rgb(47,69,91);
+    color: rgb(205, 211, 234);
+    width:100%;
+}
+header a{
+  color: rgb(205, 211, 234);
+}
+#sy1{
+    float: left;
+}
+#sy2{
+    float: right;
+    margin-right: 10px;
+}
+#hd2{
+    float: left;
+    margin:15px 15px 0px 15px;
+}
+#hd3{
+    float: left;
+    margin: 35px 0px 0 -250px;
+}
+#hd4{
+    float: right;
+    margin: 50px -150px  0 0;
+}
+#hd4 img {
+    height: 21px;
+    position: relative;
+    left: 6px;
+    top: 7px;
+}
+
+aside{
+    background-color: rgb(232,235,239);
+    box-sizing: border-box;
+    width: 188px;
+    border: 1px solid rgb(53,75, 102,0.3);
+    border-top:0;
+    color:rgb(53,75,102);
+    float: left;
+    height: 100vh;
+}
+aside ul a{
+    color:rgb(53,75, 102);
+    font-size:0.9em;
+    padding-left:25px;
+    text-decoration: none;
+}
+aside ul {
+    list-style: none;
+
+}
+
+
+
+main{
+    display: block;
+    float: right;
+    width: calc(100% - 190px);
+}
+ main .mh{
+    display: block;
+    float: left;
+    clear: right;
+    box-sizing: border-box;
+    width: 200px;
+    margin:10px;
+    margin-right: calc(100% - 210px - 190px );
+    font: 0.9em sans-seif;
+}
+main ul {
+    list-style: none;
+    display: block;
+    border: 1px solid rgb(205, 211, 234);
+    float: right;
+    font-size:0.9em;
+    width: 300px;
+    height: 230px;
+    line-height: 47px;
+    box-sizing: border-box;
+    
+    background-color:rgb(232,235,239);
+}
+main ul li:first-child{
+    border-top:1px solid  rgb(205, 211, 234);
+    margin-top:-10px;
+    
+}
+main ul li {
+    background-color:white;
+}
+main a{
+    color:rgb(53,75, 102);
+    font-size:0.9em;
+    padding-left:25px;
+    text-decoration: none;
+}
+main table{
+    float: left;
+    display: block;
+    border: 1px solid rgb(205, 211, 234);
+    box-sizing: border-box;
+    width: 845px;
+    height: 230px;
+    line-height: 55px;
+    text-align: center;
+    font:0.9em;
+}
+main table caption{
+    border-bottom: 1px solid rgb(205, 211, 234);
+    width: 845px;
+    line-height:32px; 
+    background-color: rgb(246,246,248);
+}
+footer  {
+    float: left;
+    font-size:0.8em;
+    margin: 10px 0;
+    line-height: 25px;
+}
+footer>span:nth-child(2){
+    float: left;
+    margin:20px;
+}
