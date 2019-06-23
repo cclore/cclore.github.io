@@ -1,0 +1,1006 @@
+<script id="ch0103/01">
+    a=+prompt("请输入第一个数字","")
+    b=+prompt("请输入第二个数字","")
+    alert(a+b)
+</script>
+<script id="ch0103/02"> 
+    a=+prompt("请输入第一个数字","")
+    b=+prompt("请输入第二个数字","")
+    c=+prompt("请输入第三个数字","")
+    alert((a+b)*c)
+</script>
+<script id="ch0103/03"> 
+    a=+prompt("请输入第一个数字","")
+    b=+prompt("请输入第二个数字","")
+    c=+prompt("请输入第三个数字","")
+    alert((a+b)/c)
+</script>
+<script id="ch0103/04"> 
+    a=+prompt("请输入第一个数字","")
+    b=+prompt("请输入第二个数字","")
+    var y=a%b
+    var c=a/b
+    var z=parseInt(c)
+    alert(z+" "+y)
+</script>
+<script id="ch0103/05">
+    a=+prompt("请输入第一个数字","")
+    b=+prompt("请输入第二个数字","")
+    var z=a/b
+    var y=z.toFixed(9)
+    alert(y)
+</script>
+<script id="ch0103/06">
+    a=+prompt("请输入确诊人数","")
+    b=+prompt("请输入死亡人数","")
+    var z=b/a
+    var y=z.toFixed(3)
+    alert(y)
+</script>
+<script id="ch0103/07">
+    a=+prompt("请输入a的值","")
+    b=+prompt("请输入b的值","")
+    c=+prompt("请输入c的值","")
+    d=+prompt("请输入d的值","")
+    x=+prompt("请输入x的值","")
+    z=a*x*x*x+b*x*x+c*x+d
+    n=z.toFixed(7)
+    alert(n*1)
+</script>
+<script id="ch0103/08">
+    a=+prompt("请输入华氏温度","")
+    s=5*a/9-160/9
+    z=s.toFixed(5)
+    alert("摄氏温度为"+z)
+</script>
+<script id="ch0103/09">
+    r=+prompt("请输入半径","")
+    z=2*r
+    s=3.1415*r*r
+    c=2*3.1415*r
+    alert("直径为"+z+",面积为"+s+",周长为"+c)
+</script>
+<script id="ch103/10">
+    a=+prompt("请输入r1的值","")
+    b=+prompt("请输入r2的值","")
+    r=1/(1/a + 1/b)
+    alert(r.toFixed(2))
+</script>
+<script id="ch103/11">
+    a=+prompt("请输入第一个浮点数","")
+    b=+prompt("请输入第二个浮点数","")
+    c=a%b
+    alert(c)
+</script>
+<script id="ch103/12">
+    r=+prompt("请输入r","")
+    v=4/3*3.14*r*r
+    alert(v.toFixed(2))
+</script>
+<script id="ch103/13">
+    a=prompt("请输入一个三位数","")
+    z=a.split("")
+    temp=z[0]
+    z[0]=z[2]
+    z[2]=temp
+    z=z.join("")
+    alert(z)
+</script>
+<script id="ch103/14">
+    r=+prompt("请输入底面半径","")
+    h=+prompt("请输入桶高","")
+    s=Math.ceil(20/(((0.1*r)*(0.1*r)*3.14)*0.1*h))
+    alert(s)
+</script>
+<script id="ch103/15">
+    n=+prompt("请输入a","")
+    x=+prompt("请输入b","")
+    y=+prompt("请输入c","")
+    z=n-Math.ceil(x/y)
+    alert(z)
+</script>
+<script id="ch103/16">
+    ax=+prompt("请输入ax","")
+    ay=+prompt("请输入ay","")
+    bx=+prompt("请输入bx","")
+    by=+prompt("请输入by","")
+    axt=sqrt(ax*ax)
+    ayt=sqrt(ay*ay)
+    bxt=sqrt(ax*ax)
+    byt=sqrt(ay*ay)
+    xz=sqrt((bxt-axt)*(bxt-axt))
+    yz=sqrt((byt-ayt)*(byt-ayt))
+    s=sqrt(xz*xz+yz*yz)
+    alert(s)
+</script>
+<script id="ch103/17">
+
+</script>
+<script id="ch103/18">
+    a1=+prompt("请输入a1","")
+    a2=+prompt("请输入a2","")
+    n=+prompt("请输入n","")
+    a1=(a2-a1)*(n-1)
+    alert(a1)
+</script>
+<script id="ch103/19">
+    a=+prompt("请输入a","")
+    b=+prompt("请输入b","")
+    alert(a*b)
+</script>
+<script id="ch103/20">
+    n=+prompt("请输入n","")
+    alert(Math.pow(2,n))
+</script>
+
+<script id="ch104/01">
+    n=+prompt("请输入n","")
+    if(n>0){
+        alert("positive")
+    }else if(n=0){
+        alert("zero")
+    }else if(n<0){
+        alert("negative")
+    }
+    
+</script>
+<script id="ch104/02">
+    n=+prompt("请输入n","")
+    alert(sqrt(n*n))
+</script>
+<script id="ch104/03">
+    n=+prompt("请输入n","")
+    if(n%2==0){
+        alert("o")
+    }else if(n%2!=0){
+        alert("g")
+    }
+</script>
+<script id="ch104/04">
+    n=prompt("请输入字符","")
+    s=n.charCodeAt()
+    if(s%2==0){
+        alert("oshu")
+    }else{
+        alert("gshu")
+    }
+</script>
+<script id="ch104/05">
+    x=+prompt("请输入x","")
+    y=+prompt("请输入y","")
+    if(x>y){
+        alert(">")
+    }else if(x=y){
+        alert("=")
+    }else if(x<y){
+        alert("<")
+    }
+</script>
+<script id="ch104/06">
+    x=+prompt("请输入x","")
+    if(x>=10&&a<=100){
+        alert(1)
+    }else{
+        alert(0)
+    }
+</script>
+<script id="ch104/07">
+    a=+prompt("幸运","")
+    b=+prompt("鼓励","")
+    if(a>=10||b>=20){
+        alert(1)
+    }else{
+        alert(0)
+    }
+</script>
+<script id="ch104/08">
+    a=+prompt("请输入一个正整数","")
+    if(a%3==0&&a%5==0){
+        alert("yes")
+    }else{
+        alert("no")
+    }
+</script>
+<script id="ch104/09">
+    a=+prompt("请输入一个正整数","")
+    if(a%3==0&&a%5==0&&a%7==0){
+        alert("357")
+    }else if(a%3==0&&a%5==0&&a%7!=0){
+        alert("35")
+    }else if(a%3!=0&&a%5==0&&a%7==0){
+        alert("57")
+    }else if(a%3==0&&a%5!=0&&a%7==0){
+        alert("37")
+    }else{
+        alert("no")
+    }
+</script>
+<script id="ch104/10">
+    a=+prompt("语文","")
+    b=+prompt("数学","")
+    if(a>=60&&b>=60){
+        alert(0)
+    }else{
+        alert(1)
+    }
+</script>
+<script id="ch104/11">
+    a=+prompt("星期几","")
+    if(a==1||a==3||a==5){
+        alert("不能")
+    }else{
+        alert("能")
+    }
+</script>
+<script id="ch104/12">
+    a=+prompt("距离","")
+    bx=a/1.2
+    qc=(a/3)+50
+    if(bx<ac){
+        alert("步行快")
+    }else{
+        alert("骑车快")
+    }
+</script>
+<script id="ch104/13">
+    n=+prompt("输入n","")
+    if(x>0&&x<5){
+        alert(2.5-x)
+    }else if(x<=5&&x<=10){
+        alert(2-1.5*(x-3)(x-3))
+    }else if(x>10&&x<20){
+        alert(x/2-1.5)
+    }
+</script>
+
+<script id="ch104/14">
+    a=+prompt("请输入重量,以克为单位","")
+    b=prompt("是否加急，y或n","")
+    if(a<=1000&&b==="y"){
+        alert("运费为12元")
+    }else if(a<=1000){
+        alert("运费为8元")
+    }else if(a>1000&&b==="y"){
+        y=Math.ceil((a-1000)/400)
+        alert(13+y*4)
+    }
+    else if(a>1000){
+        y=Math.ceil((a-1000)/400)
+        alert(8+y*4)
+    }
+</script>
+<script id="ch104/15">
+    a=+prompt("请输入第一个数字","")
+    b=+prompt("请输入第二个数字","")
+    c=+prompt("请输入第三个数字","")
+    if(a>b&&b>c){
+        alert(a+""+b+c)
+    }else if(a>c&&c>b){
+        alert(a+c+b)
+    }else if(b>a&a>c){
+        alert(b+""+a+c)
+    }else if(b>c&&c>a){
+        alert(b+c+""+a)
+    }else if(c>a&&a>b){
+        alert(c+""+a+b)
+    }else if(c>b&&b>a){
+        alert(a+b+""+a)
+    }
+</script>
+<script id="ch104/16">
+    a=+prompt("请输入第一条边","")
+    b=+prompt("请输入第二条边","")
+    c=+prompt("请输入第三条边","")
+    if(a+b>c&&a+c>b&&c+b>a){
+        alert("yes")
+    }else{
+        alert("no")
+    }
+</script>
+<script id="ch104/17">
+    a=+prompt("请输入年份","")
+    if(a%100==0&&a%400==0){
+        alert(闰年)
+    }else if(a%4==0&&a%100!=0){
+        alert(闰年)
+    }else{
+        alert(平年)
+    }
+</script>
+<script id="ch104/18">
+    x=+prompt("请输入坐标x","")
+    y=+prompt("请输入坐标y","")
+    if(Math.sqrt(x*x)<1&&Math.sqrt(y*y)<1){
+        alert("yes")
+    }else{
+        alert("no")
+    }
+</script>
+<script id="ch104/19">
+    a=+prompt("请输入数字","")
+    b=+prompt("请输入数字","")
+    c=prompt("请输入运算符","")
+    if(c=="+"){
+        alert(a+b)
+    }else if(c=="-"){
+        alert(a-b)
+    }else if(c=="*"){
+        alert(a*b)
+    }else if(c=="/"){
+        alert(a/b)
+    }
+</script>
+<script id="ch104/20">
+    a=+prompt("请输入a","")
+    b=+prompt("请输入b","")
+    c=+prompt("请输入c","")
+    if(b*b===4*a*c){
+        var x1=x2=(-b+sqrt(b*b-4*a*c))/(2*a)
+        alert("x1"+""+"x2")
+    }else if(b*b>4*a*c){
+        var x1=(-b+sqrt(b*b+4*a*c))/(2*a)
+        var x2=(-b+sqrt(b*b-4*a*c))/(2*a)
+        alert("x1"+""+"x2")
+    }else if(b*b<4*a*c){
+        x1=-b/(2*a)+sqrt(4*a*c-b*b) / (2*a)
+        x2=b/(2*a)-sqrt(4*a*c-b*b) / (2*a)
+        alert("x1"+""+"x2")
+    }
+</script>
+<script id="ch104/21">
+    n=+prompt("请输入a","")
+    x=+prompt("请输入b","")
+    y=+prompt("请输入c","")
+    z=n-Math.ceil(x/y)
+    alert(z)
+</script>
+<script id="ch0105/01">
+    n=+prompt("")
+    sum=0
+    for(i=0;y<n;i++){
+        a=+prompt()
+        sum+=a;
+    }
+    alert(sum/n)
+</script>
+<script id="ch0105/01">
+    var n=+prompt("输入学生人数n");
+    var sum=0;
+    for(i=1;i<=n;i++){
+        var y=+prompt("年龄");
+        var sum=sum+y;
+    }
+    alert(sum/n);
+</script>
+<script id="ch0105/02">
+    var month=12;
+    var sum=0;
+    for(i=1;i<=month;i++){
+        e=+prompt("每月结余")
+        sum+=e
+    }
+    alert(sum/month)
+</script>
+<script id="ch0105/03">
+    var n=+prompt("输入n")
+    var sum=0;
+    for(i=0;i<=n;i++){
+        var e=+prompt("每一个数")
+        sum+=e;
+    }
+    alert(sum/n);
+</script>
+<script id="ch0105/04">
+    var n=+prompt("输入n")
+    var sum=0;
+    for(i=0;i<=n;i++){
+        var e=+prompt("每一个数")
+        sum+=e;
+    }
+    alert(sum);
+    alert(sum/n);
+</script>
+<script id="ch0105/05">
+    // var n=+prompt("输入学生人数")
+    // var arr=[];
+    // for(i=0;i<n;i++){
+    //     var e=+prompt("每位成绩");
+    //     arr[i]=e;
+    // }
+    // console.log(arr.sort()[arr.length-1])
+    var n=+prompt("人数")
+    var arr=[]
+    for(i=0;i<n;i++){
+        var e=+prompt("每位成绩")
+        arr[i]=e;
+    }
+    for(i=0;i<arr.length-1;i++){
+        for(j=0;j<arr.length-1-i;j++){
+            if(arr[j]<arr[j+1]){
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1];
+            }
+        }
+    }
+    alert(arr[0])
+</script>
+<script id="ch0105/06">
+    var n=+prompt("个数N")
+    var arr=[]
+    for(i=0;i<n;i++){
+        var e=+prompt("每个数字")
+        arr[i]=e;
+    }
+    for(i=0;i<arr.length-1;i++){
+        for(j=0;j<arr.length-1-i;j++){
+            if(arr[j]<arr[j+1]){
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1];
+            }
+        }
+    }
+    var l=arr.length
+    alert(arr[0]-arr[l-1])
+</script>
+<script id="ch0105/07">
+    var jp=[];
+    var yp=[];
+    var tp=[];
+    var n=+prompt("请输入天数")
+    for(i=0;i<n;i++){
+        j=+prompt("请输入金牌数")
+        jp[i]=j;
+        y=+prompt("请输入银牌数")
+        yp[i]=y;
+        t=+prompt("请输入铜牌数")
+        tp[i]=t;
+    }
+    for(i=0;i<n;i++){
+        var js=0;
+        js=jp[i]+js;
+        var ys=0;
+        ys=yp[i]+ys;
+        var ts=0
+        ts=tp[i]+ts;
+    }
+    alert(js+" "+ys+" "+ts+" "+(js+ys+ts))
+</script>
+<script id="ch0105/08">
+    var n=prompt("请输入边数")
+    sum=0;
+    for(i=0;i<(n-1);i++){
+        e=+prompt("每一条边")
+        sum+=e;
+    }
+    var s=(n-2)*180-sum;
+    alert(s)
+</script>
+<script id="ch0105/09">
+    var m=+prompt("m");
+    var n=+prompt("n")
+    var temp=0;
+    for(i=m;i<=n;i++){
+        if(i%2!=1){
+            temp+=i;
+        }
+    }
+</script>
+<script id="ch0105/10">
+    var m=+prompt("m");
+    var n=+prompt("n")
+    var temp=0;
+    for(i=m;i<=n;i++){
+        if(i%17===0){
+            temp+=i;
+        }
+    }
+</script>
+<script id="ch0105/11">
+    var k=+prompt("k")
+    var arr=[];
+    var sum1=0;
+    var sum5=0;
+    var sum10=0;
+    for(i=0;i<k;i++){
+        e=+prompt("正整数")
+        arr[i]=e;
+    }
+    for(j=0;j<k-1;j++){
+        if(arr[j]===1){
+            sum1 += arr[j]
+        }else if(arr[j]===5){
+            sum5 += arr[j]
+        }else  if(arr[i]===10){
+            sum10 += arr[j]
+        }
+    }
+    var c5=sum5/5;
+    var c10=sum10/10;
+    alert(sum1+""+c5+""+c10)
+</script>
+<script id="ch0105/12">
+    var n=+prompt("n")
+    var m=+prompt("m")
+    arr=[]
+    var temp=0;
+    for(i=0;i<n;i++){
+        e=+prompt("每个数");
+        arr[i]=e;
+    }
+    for(j=0;j<n;j++){
+        if(arr[j]===m){
+            temp+=arr[j]
+        }
+    }
+    var t=temp/m;
+    alert(t);
+</script>
+<script id="ch0105/13">
+    var a=+prompt("a")
+    var n=+prompt("n")
+    if(n>1){
+        for(i=1;i<=n;i++){
+        a *= a
+        }
+    }else{
+        alert(a)
+    }
+    
+</script>
+<script id="ch0105/14">
+    var x=+prompt("人口")
+    var n=+prompt("年数")
+    var sum=0;
+    for(i=1;i<=n;i++){
+        sum=x*Math.pow(1.001,i)
+    }
+    console.log(Math.round(sum);
+</script>
+<script id="ch0105/15">
+    var r=+prompt("金额")
+    var m=+prompt("m")
+    var y=+prompt("y")
+    var sum=x*Math.row((m/100)+1,y)
+    alert(sum)
+</script>
+<script id="ch0105/16">
+    var n=+prompt("n")
+    var k=+prompt("k")
+    for(m=1,m<=20,m++){
+        if(n*m>=Math.pow((k/100)+1),m){
+            alert(m)
+        }
+    } else {
+        alert(impossible)
+    }
+</script>
+<script id="ch0105/17">
+    var k=+prompt("k")
+    arr=[]
+    arr[0]=1;
+    arr[1]=1;
+    for(i=2;i<k;i++){
+        arr[i]=arr[i-1]+arr[i-2]
+        
+    }
+    alert(arr[k-1])
+</script>
+<script id="ch0105/18">
+    var n=+prompt("n")
+    var gy=+prompt("鸡尾酒样本")
+    var gx=+prompt("鸡尾酒效果")
+    var nArry=[]
+    for(i=0;i<n-1;i++){
+        var suoyou=+prompt("样本数")
+        var well=+prompt("有效的")
+        nArry[i][suoyou]=suoyou;
+        nArry[i][well]=well;
+    }
+    for(j=0;j<n-1;j++){
+        var xga=[]
+        var xg=sqrt((nArry[j][suoyou]/nArry[j][all]-gx/gy)*(nArry[j][well]/nArry[j][suoyou]-gx/gy))
+        if(xg>0.05){
+            xga[j]=better;
+        }else if(xg<0.05){
+            xga[j]=worse;
+        }else{
+            xga[j]=same;
+        }
+    }
+    for(z=0;z<n-1;z++){
+        console.log(xga[z])
+    }
+</script>
+<script id="ch0105/19">
+    var n=+prompt("n个屋顶")
+    var coor=[];
+    for(i=0;i<n;i++){
+        xc=+prompt("x值")
+        yx=+prompt("y值")
+        ps=+prompt("该屋顶人数")
+        coor[i][x]=xc;
+        coor[i][y]=yx;
+        coor[i][p]=ps;
+    }
+    var t=[]
+    var sum=0;
+    for(j=0;j<n;j++){
+        t[j]=sqrt((coor[j][x]*coor[j][x])+(coor[j][y]*coor[j][y]))/50+coor[j][p]*1.5;
+        sum+=t[j];
+    }
+    console.log(sum)
+</script>
+<script id="ch0105/20">
+    var h=+prompt("高度")
+    var sum=0
+    for(i=1;i<=10;i++){
+        sum += h*0.5
+    }
+    var h2=h*Math.pow(0.5,10)
+    alert((sum*2-h)+""+h2)
+</script>
+<script id="ch0105/21">
+    var n=+prompt("n")
+    var num=0;
+    function jg(n){
+        if(n==1){
+            console.log("end")
+        }
+        else if(n%2==1){
+            num=n*3+1;
+            console.log(num+"=n*3+1")
+        }else{
+            num=n/2;
+            console.log(num+"=n/2")
+        }
+        if(n!=1){
+            jg(num)
+        }
+    }
+    jg(n)
+</script>
+<script id="ch0105/22">
+    var eq=[]
+    for(i=0;i<12;i++){
+        eq[i][shuchu]=+prompt("每月");
+        eq[i][shuru]=300;
+    }
+    var sum=0
+    for(j=0;j<12;j++){
+        var jy=eq[j][shuru]-eq[j][shuchu]
+        if(jy<0){
+            console.log(-j)
+        }else{
+            sum=jy*1.2+sum;
+            console.log(sum)
+        }
+    }
+</script>
+<script id="ch0105/23">
+    var m=+prompt("m");
+    var n=+prompt("n");
+    var nm=[]
+    for(i=0;i<n;i++){
+        nm[i]=+prompt("取药量")
+    }
+    sum=0;
+    for(j=0;j<n;j++){
+        sum+=nm[j];
+        if(sum>=m){
+            alert(n-j+1)
+        }
+    }
+</script>
+<script id="ch0105/24">
+    var n=+prompt("n小时");
+    var ss=[]
+    var temp=0;
+    for(i=0;i<n;i++){
+        ss[i][shousuo]=+prompt("shousuo")
+        ss[i][shuzhang]=+prompt("shuzhang")
+        if(ss[i][shuzhang]>=90 && ss[i][shuzhang]<=140&&ss[i][shousuo]>=60&&ss[i][shousuo]<=90){
+            temp+=1;
+        }
+    }
+    alert(temp)
+</script>
+<script id="ch0105/25">
+    for(x=1;x<=10000;x++){
+        var x71=x%7
+        var x72=(x-x%7)/7%7
+        var x73=(x-((x-x%7)/7%7))/7%7
+        var x91=x%9
+        var x92=(x-x%9)/9%9
+        var x93=(x-(x-x%9)/9%9)/9%9
+        if(x71==x93&&x72==x92&&x73==x91){
+            alert(i);
+        }
+    }
+</script>
+<script id="ch0105/26">
+    var n=+prompt("n个")
+    var s=[]
+    var temp=0;
+    for (i=0;i<n;i++){
+        var e=prompt("每一个四位数")
+        var s[i]=e.split()
+        if((s[i][3]-s[i][2]-s[i][1])>0){
+            temp+=1;
+        }
+    }
+    alert(temp)
+</script>
+<script id="ch0105/27">
+    var k=+prompt("k")
+    var sn=0;
+    for(i=1;i<=100000000;i++){
+        sn=sn+1/i;
+        if(sn>=k){
+            console.log(i);
+            break;
+        }
+    }
+</script>
+<script id="ch0105/28">
+    var n=prompt("n")
+    var arr=n.split()
+    var Rarr=arr.reverse()
+    alert( arr.join())
+</script>
+<script id="ch0105/29">
+    var n=prompt("n")
+    var arr=n.split()
+    var Rarr=arr.reverse()
+    if(Rarr[Rarr.length-1]=="-"&&Rarr[0]=="0"){
+        Rarr[0]="-"
+        Rarr.splice(Rarr[rarr.length-1],1)
+    }
+    var sr=Rarr.join()
+    console.log(sr)
+</script>
+<script id="ch0105/30">
+    m=+prompt("m")
+    k=+prompt("k")
+    if(m%19===0&&k=3){
+        alert("yes")
+    }else{
+        alert("no")
+    }
+</script>
+<script id="ch0105/31">
+    var n=+prompt("n")
+    var m=+prompt("m")
+    var p=[];
+    for(i=0;i<n;i++){
+        p[i]=true;
+    }
+    for(li=0;li<n;li++){
+        for(j=1;j<=m;j++){
+            if((li+1)%j==0){
+                p[li]=!p[li];
+            }            
+        }
+        if(p[li]==false){
+            console.log(li+1)
+            }
+    }
+</script>
+<script id="ch0105/32">
+    var n=+prompt("n")
+    var q=1;
+    var p=1;
+    var sum=0;
+    for(i=1;i<=n;i++){        
+        q=q+p;
+        p=q-p;
+        sum+=q/p;
+    }
+    console.log(sum)
+</script>
+<script id="ch0105/33">
+    var n=+prompt()
+    var sum=0;
+    for(i=1;i<=n;i++){
+        if(i%2!=0){
+            sum=sum+(1/i)
+        }else{
+            sum=sum-(1/i)
+        }
+    }
+    console.log(sum)
+</script>
+<script id="ch0105/34">
+    var n=+prompt()
+    var sum=0;
+    for(i=1;i<=n;i++){
+        var m=1;
+        for(j=1;j<=i;j++){
+            m=m*j;
+        }
+        sum+=m;
+    }
+    console.log(sum)
+</script>
+<script id="ch0105/35">
+    var n=+prompt("")
+    var sum=0;
+    for(i=0;i<=n;i++){
+        var m=1;
+        for(j=1;j<=i;j++){
+            m*=j;
+        }
+        sum=sum+(1/m)
+    }
+    console.log(sum)
+</script>
+<script id="ch0105/36">
+    x=+prompt("x")
+    n=+prompt("n")
+    sum=0;
+    for(var i=n;i>=0;i--){
+        var temp=x;
+        for(j=1;j<i;j++){
+            tx=x;
+            temp*=tx;
+        }
+        sum+=temp;
+    }
+    console.log(sum-1)
+</script>
+<script id="ch0105/37">
+    var m=+prompt("m")
+    var n=+prompt("n")
+    var x=+prompt("x")
+    function zhanLi(m,n,x){
+        X=x-Math.ceil(m/n)
+        N=n+Math.floor(m/n)
+        if(X*N>=m){
+            zhanLi(m,N,X)
+        }
+    }
+    zhanLi(m,n,x)
+    console.log(N)
+</script>
+<script id="ch0105/38">
+    n=+prompt("项数")
+    k=prompt("系数,以空格隔开")
+    c=prompt("指数，以空格隔开")
+    sc=[]
+    kk=k.split(" ")
+    cc=c.split(" ")
+    if(n==0){
+        console.log(0)
+    }else{
+        for(i=0;i<c.length;i++){
+            sc[i]=kk[i]*cc[i]
+        }
+    } 
+     var scc=sc.join()
+    console.log(scc)
+</script>
+<script id="ch0105/39">
+    var n=+prompt("n")
+    var sum=0;
+    for(i=1;i<=n;i++){
+        if(i%7==0||i%10==7){
+            continue;
+        }else{
+            sum=sum+i*i;
+        }
+    }
+    console.log(sum)
+</script>
+<script id="ch0105/40">
+    var n=+prompt("n")
+    var count=0;
+    for(i=1;i<=n;i+=1){
+        var j=i;
+        while(j>=1){
+            if(j%10==1){
+                count+=1
+            }
+            else{
+                count+=0
+            }
+            j=Math.floor(j/=10)
+        }
+    }
+    console.log(count)
+</script>
+<script id="ch0105/41">
+    var l=Number(prompt("l"))
+    var r=Number(prompt("r"))
+    var count=1;
+    for(i=l;i<=r;i++){
+        var j=i;
+        while(j>0){
+            if(j%10==2){
+                count+=1;
+            }else{
+                count+=0;
+            }
+            j=Math.floor(j/=10)
+        }
+    }
+</script>
+<script id="ch0105/42">
+    var h=+prompt("h")
+    var w=+prompt("w")
+    var z=prompt("字符")
+    var x=+prompt("0||1")
+    if(x==1){
+        for(i=0;i<h;i++){
+            var temp=z;
+            for(j=0;j<w-1;j++){
+                temp+=z;
+            }
+            console.log(temp)
+        }
+    }else if(x==0){
+        var temp1=z
+        for(j=0;j<w-1;j++){
+            temp1+=z
+        }
+        console.log(temp1)
+
+        
+        for(m=0;m<h-2;m++){
+            var temp2=" "
+            var temp21=" ";
+            for(i=0;i<w-3;i++){
+                temp21+=temp2;
+            }
+            console.log(z+temp21+z)
+        }
+
+        var temp3=z
+        for(o=0;o<w-1;o++){
+            temp3+=z
+        }
+        console.log(temp3)
+    }
+</script>
+<script id="ch0105/43">
+    var n=+prompt()
+    var arr=[]
+    for(i=0;i<=n/2;i++){
+        if(n%i==0){
+            arr.push(i)
+        }
+    }
+    var mx=arr[arr.length-1]
+    console.log(mx)
+</script>
+<script id="ch0105/44">
+    var n=+prompt("n")
+    var arr=[]
+    for(i=0;i<10000;i++){
+        var isPrime=true;
+        for(j=2;j<(i/2);j++){
+            if(i%j==0){
+                isPrime=false;
+                break;
+            }
+        }
+        if(isPrime==true){
+            arr.push(i)
+        }
+    }
+    console.log(arr[n])
+</script>
+<script id="ch0105/45">
+    var a=+prompt("n")
+    var give=1;
+    var sum=0;
+    for(i=0,j=0;i<n;i++,j++){
+        if(j==give){
+            j=1;
+            give++
+        }
+        sum+=give;
+    }
+    console.log(sum)
+
+</script>

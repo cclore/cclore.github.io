@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=718px, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="https://daneden.imgix.net/2018/10/portrait.jpg?auto=format&fit=crop&ixlib=react-8.6.1&w=594" alt="" id="i1">
+        <img src="https://daneden.imgix.net/2018/10/GenArt.png?auto=format&fit=crop&ixlib=react-8.6.1&w=594" alt="" id="i2">
+        <img src="https://daneden.imgix.net/2019/04/home.jpeg?auto=format&fit=crop&ixlib=react-8.6.1&w=594" alt="" id="i3">
+    </div>
+</body>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    height: 720px;
+    width: 718px;
+    margin: 0 auto;
+    padding: 0px 120px;
+    position: relative;
+    box-sizing: border-box;
+}
+div img{
+    width: 240px;
+    height: 355px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+div #i2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+div #i3{
+    float: right;
+}
+
+div #i1:hover,div #i3:hover{ 
+    z-index: 3;
+}
+</style>
+</html>

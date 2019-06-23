@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <section></section>
+    <section>
+        <div></div>
+    </section>
+    <section></section>
+    <section></section>
+    </div>
+</body>
+<style>
+*{
+    padding: 0;
+    margin:0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+div {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+div section{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100%;
+}
+div section:nth-child(1){
+    flex-grow: 1
+}
+div section:nth-child(2){
+    flex-grow: 2;
+}
+div section:nth-child(3){
+    flex: 1;
+}
+div section:nth-child(4){
+    flex:1;
+}
+div section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+div section:nth-child(2) div{
+    flex-basis: 10%;
+    border-bottom: 1px solid black;
+}
+
+
+</style>
+</html>

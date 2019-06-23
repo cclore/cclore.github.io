@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <section class="s"></section>
+        <section class="f"></section>
+        <section class="m"></section>
+    </div>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color:rgb(129, 99, 99);
+    }
+    div{
+        width: 400px;
+        height: 400px;
+        box-sizing: border-box;
+        border-radius: 200px;
+        border: 5px solid  black;
+        float: left;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+    }
+    div span{
+        font-size:20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inline-block;
+        text-shadow: 0 0 5px;
+        width:6px ;
+        height: 20px;
+        box-sizing: border-box;
+        border: 3px solid #000;
+        position: absolute;
+        left:192.5px;
+        top:10px;
+        transform-style: preserve-3d;
+        transform-origin: 3px 185px;
+    }
+    div span:nth-child(1){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,30deg);
+    }
+    div span:nth-child(2){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,60deg);
+    }
+    div span:nth-child(3){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,90deg);
+    }
+    div span:nth-child(4){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,120deg);
+    }
+
+    div span:nth-child(5){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,150deg);
+    }
+
+    div span:nth-child(6){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,180deg);
+    }
+
+    div span:nth-child(7){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,210deg);
+    }
+    div span:nth-child(8){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,240deg);
+    }
+    div span:nth-child(9){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,270deg);
+    }
+    div span:nth-child(10){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,300deg);
+    }
+    div span:nth-child(11){
+        perspective: 1000px;
+        transform: rotate3d(0,0,1,330deg);
+    }
+    .s{
+        width: 100px;
+        height: 4px;
+        border: 2px solid #000;
+        box-sizing: border-box;
+        position: absolute;
+        top: 190px;
+        left: 190px;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        transform-origin: left;
+        transform: rotate3d(0,0,1,40deg);
+        animation: sz 43200s infinite linear;
+    }
+    @keyframes sz{
+        0%{ transform: rotate3d(0,0,1,213deg)}
+        100%{ transform: rotate3d(0,0,1,573deg)}
+    }
+
+    .f{
+        width: 140px;
+        height: 4px;
+        border: 2px solid #000;
+        box-sizing: border-box;
+        position: absolute;
+        top: 190px;
+        left: 190px;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        transform-origin: left;
+        animation: fz 3600s infinite linear;
+    }
+    @keyframes fz{
+        0%{ transform: rotate3d(0,0,1,0deg)}
+        100%{ transform: rotate3d(0,0,1,360deg)}
+    }
+    .m{
+        width: 180px;
+        height: 4px;
+        border: 2px solid #000;
+        box-sizing: border-box;
+        position: absolute;
+        top: 190px;
+        left: 190px;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        transform-origin: left;
+        transform: rotate3d(0,0,1,270deg);
+        animation: mz 60s infinite  linear;
+    }
+    @keyframes mz{
+        0%{ transform: rotate3d(0,0,1,270deg)}
+        100%{ transform: rotate3d(0,0,1,630deg)}
+    }
+
+
+    </style>
+</body>
+</html>
