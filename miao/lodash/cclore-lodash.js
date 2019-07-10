@@ -1,7 +1,6 @@
-var cclore = function () {
-
+var cclore = {
     compact: function(ary) {
-                return ary.filter(it => it)
-             };
-return compact ;
-}()
+      return ary.filter(it => it)
+    }
+    
+  }
